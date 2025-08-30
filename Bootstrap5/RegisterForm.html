@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Register form</title>
 
     <script src="/Bootstrap5/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="/Bootstrap5/css/bootstrap.min.css">
     <link rel="stylesheet" href="Bootstrap5/css/Register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     
@@ -58,9 +61,11 @@
 
     <!--Registration form-->
 
+    <div class="container1">
+      <h1>Register Here</h1>
     <form>
         <label for = "username">Username:</label>
-        <input tupe = "text" id = "username" name = "username" placeholder="Enter your Username" required><br><br>
+        <input type = "text" id = "username" name = "username" placeholder="Enter your Username" required><br><br>
 
         <label for = "fullname">Full Name:</label>
         <input type = "text" id = "fullname" name = "fullname" placeholder="Enter your Full Name" required><br><br>
@@ -75,7 +80,7 @@
         <input tupe = "email" id = "email" name = "email" placeholder="Enter your Email" required><br><br>
 
         <label for = "password">Password:</label>
-        <input tupe = "password" id = "password" name = "password" placeholder="Enter your Password" required><br><br>
+        <input type = "password" id = "password" name = "password" placeholder="Enter your Password" required><br><br>
 
         <label for = "gender">Gender:</label>
         <input type = "radio" name = "gender" value = "Male">
@@ -85,3 +90,6 @@
         <button type = "submit">Register</button>
 
     </form>
+  </div>
+</body>
+</html>
