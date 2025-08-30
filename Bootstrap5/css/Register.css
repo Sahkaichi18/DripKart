@@ -26,6 +26,25 @@ body{
     font-size: 22px;
 }
 
+.container1 h2{
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.container1 a{
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.container1 a:hover{
+    color: #71f002;
+    text-decoration: none;
+}
+
 .container1 form{
     display: flex;
     flex-direction :column;
