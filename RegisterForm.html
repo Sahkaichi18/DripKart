@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="/Bootstrap5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/Bootstrap5/css/bootstrap.min.css">
+</head>
+<body>
+    
+    <!--Navbar start-->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light" style="font-weight: bold;background-color: rgb(12, 186, 12);">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="Bootstrap5/Images/DripKart_logo_OG.png" height="75px" width="80px" style="mix-blend-mode: multiply;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html" style="font-weight:bold;">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html" style="font-weight:bold;">About</a>
+            </li>
+            <!-- Login trigger -->
+            <li class="nav-item">
+              <a class="nav-link active" href="#" data-bs-toggle="modal" data-bs-target="#loginModal" style="font-weight:bold;">Login</a>
+            </li>
+            <!-- Register trigger -->
+            <li class="nav-item">
+              <a class="nav-link active" href="#" data-bs-toggle="modal" data-bs-target="#registerModal" style="font-weight:bold;">Register</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-weight:bold;">
+                Products Category
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#" style="font-weight:bold;">Men</a></li>
+                <li><a class="dropdown-item" href="#" style="font-weight:bold;">Women</a></li>
+                <li><a class="dropdown-item" href="#" style="font-weight:bold;">kids</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-dark" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--Navbar end-->
+
+    <!--Registration form-->
