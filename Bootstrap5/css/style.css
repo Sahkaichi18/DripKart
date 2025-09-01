@@ -2,7 +2,6 @@
 body{
     background: black;
     font-family: "Roboto", sans-serif;
-    background-image: url(/Bootstrap5/Images/LoginRegisterBG.png);
 }
 
 
@@ -160,61 +159,95 @@ body{
     color: #71f002;
 }
 
-/*Conatct us form css*/
+/*contact us form css*/
 
-body .container4, .map, .container5{
-    background-color: white;
-    background-image: none;
-
-}
-
-body .container4{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-#contact .container4 li{
+.container4 li{
+    color: #71f002;
+    font-size: 18px;
     list-style: none;
     display: flex;
-    padding: 10px 0;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.container4 h6, h2, h3{
+    color: #71f002;
+    padding-left: 20px;
+
+}
+.container4 p{
+    padding-left: 10px;
+}
+.container4 i{
+    margin-top: 5px;
 }
 
-#contact .container4 li i{
-    font-size: 14px;
-    padding-right: 22px;
+.map{
+    margin-bottom: 20px;
+    padding-right: 10px;
+    width: 100%;
 }
-
-#contact .container4 li p{
-    margin: 0;
-    font-size: 14px;
-}
-
-#contact .map{
-    width: 55%;
+.map iframe{
+    width: 100%;
     height: 400px;
 }
 
-#contact .map iframe{
-    width: 100%;
-    height: 100%;
+
+.container5 {
+    width: 40%;
+    margin-top: 80px;
+    margin-left: 500px;
+    margin-bottom: 80px;
+    padding: 70px;
+    background: rgb(2, 125, 2);
+    border-radius: 10px;
+    box-shadow: 7px 7px 20px #71f002,-7px -7px 20px #71f002;
+    text-align:left;
 }
 
-.container5{
-    display: flex;
-    justify-content: space-between;
-    margin: 30px;
-    padding: 80px; border: 1px solid #71f002;
-     width: 65%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.container5 input textarea{
-    width: 100%;
-    padding: 10px 15px;
-    outline: none;
+.container5 h2{
+    text-align: center;
     margin-bottom: 20px;
-    border: 1px solid purple;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.container5 form{
+    display: flex;
+    flex-direction :column;
+    /* align-items: center; */
+}
+
+.container5 label{
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+}
+
+.container5 input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.container5 button{
+    background: white;
+    color: black;
+    font-weight: bold;
+    padding: 12px;
+    margin-right: 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s ease;
+}
+
+.container5 button:hover{
+    background:#71f002;
 }
